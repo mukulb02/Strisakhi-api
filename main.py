@@ -9,6 +9,8 @@ async def predict(query: str):
         response = {"response": "Hi there!"}
     elif query.lower() == 'how are you':
         response = {"response": "I'm doing great, thank you!"}
+        elif query.lower() == 'hii':
+        response = {"response": "Namaste"}
     elif query.lower() == 'bye':
         response = {"response": "Goodbye!"}
     else:
